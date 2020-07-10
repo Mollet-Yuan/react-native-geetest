@@ -1,25 +1,25 @@
 {
   "name": "@yyyyu/react-native-geetest-sensebot",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "geetest sensebot for react native.",
   "keywords": [
     "react-native",
     "geetest sensebot"
   ],
-  "homepage": "https://github.com/yyyyu/react-native-geetest-sensebot",
+  "homepage": "https://github.com/Mollet-Yuan/react-native-geetest",
   "bugs": {
-    "url": "https://github.com/yyyyu/react-native-geetest-sensebot/issues"
+    "url": "https://github.com/Mollet-Yuan/react-native-geetest/issues"
   },
   "license": "MIT",
   "author": {
-    "name": "yyyyu",
-    "email": "g592842897@gmail.com"
+    "name": "mollet",
+    "email": "mollet_yuan@163.com"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yyyyu/react-native-geetest-sensebot.git"
+    "url": "https://github.com/Mollet-Yuan/react-native-geetest.git"
   },
   "scripts": {
     "test": "echo ignore",
@@ -29,7 +29,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@types/react-native": "^0.57.45"
+    "@types/react-native": "^0.62.0"
   },
   "devDependencies": {
     "commitizen": "^3.1.1",

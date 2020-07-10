@@ -3,7 +3,7 @@ require 'json'
 package_json = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 
 Pod::Spec.new do |s|
-  s.name                = 'RNLGeetestSensebot'
+  s.name                = 'react-native-geetest'
   s.version             = package_json["version"]
   s.author              = { package_json['author']['name'] => package_json['author']['email'] }
   s.license             = { :type => package_json['license'] }
